@@ -42,5 +42,4 @@ catch (Exception ex)
     logger.LogError(ex, "An Unexpected happened in our migration");
 
 }
-app.UseAuthentication();
 app.Run();
